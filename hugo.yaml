@@ -9,4 +9,4 @@ caches:
 
 params:
   defaultTheme: dark
-  disableThemeToggle: false
+  disableThemeToggle: true
