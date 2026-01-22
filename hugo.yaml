@@ -1,6 +1,6 @@
-baseURL: https://example.org/
+baseURL: https://matt-thomas.work
 languageCode: en-gb
-title: Matt Thomas Test
+title: Matt Thomas
 theme: PaperMod
 
 caches:
