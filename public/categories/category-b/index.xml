@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Matt Thomas</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Matt Thomas</description>
+    <title>Category B on Matt Thomas</title>
+    <link>http://localhost:1313/categories/category-b/</link>
+    <description>Recent content in Category B on Matt Thomas</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 22 Jan 2026 15:24:18 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/category-b/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Another Test Post</title>
       <link>http://localhost:1313/posts/another-test-post/</link>
       <pubDate>Thu, 22 Jan 2026 15:24:18 +0100</pubDate>
       <guid>http://localhost:1313/posts/another-test-post/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Test Post</title>
-      <link>http://localhost:1313/posts/test-post/</link>
-      <pubDate>Thu, 22 Jan 2026 15:05:57 +0100</pubDate>
-      <guid>http://localhost:1313/posts/test-post/</guid>
       <description></description>
     </item>
   </channel>
