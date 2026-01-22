@@ -1,7 +1,6 @@
 baseURL: https://matt-thomas.work
 languageCode: en-gb
 title: Matt Thomas
-paginate: 5
 theme: PaperMod
 
 caches:
