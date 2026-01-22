@@ -8,5 +8,10 @@ caches:
     dir: :cacheDir/images
 
 params:
+  env: production
+  title: Matt Thomas
+  description: "Matt Thomas personal website"
+  keywords: [Blog, Portfolio]
+  author: Matt Thomas
   defaultTheme: light
   disableThemeToggle: true
