@@ -8,5 +8,5 @@ caches:
     dir: :cacheDir/images
 
 params:
-  defaultTheme: dark
+  defaultTheme: light
   disableThemeToggle: true
