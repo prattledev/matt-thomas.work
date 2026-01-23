@@ -21,7 +21,7 @@ params:
 
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Hi! 👋
+    title: Hello 👋
     subtitle:
     imageUrl: 
     imageWidth: 150
@@ -32,6 +32,12 @@ params:
         url: about
       - name: Posts
         url: posts
+
+  socialIcons:
+    - name: github
+      url: https://github.com/prattledev
+    - name: linkedin
+      url: https://www.linkedin.com/in/mrmthomas/
 
   assets:
     # disableHLJS: true # to disable highlight.js
