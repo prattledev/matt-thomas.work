@@ -15,6 +15,23 @@ params:
   author: Matt Thomas
   defaultTheme: light
   disableThemeToggle: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Hi! 👋
+    subtitle:
+    imageUrl: 
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: my image
+    buttons:
+      - name: About
+        url: about
+      - name: Posts
+        url: posts
 
   assets:
     # disableHLJS: true # to disable highlight.js
