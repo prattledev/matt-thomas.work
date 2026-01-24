@@ -12,8 +12,6 @@ title: 'Why SDI Still Matters'
 
 ***
 
-# **Why SDI Still Matters in a World Racing Toward IP**
-
 For years, the broadcast industry has been buzzing with a single message: **IP is the future.** From SMPTE 2110 deployments to fully virtualized cloud production, the momentum behind IP‑based workflows is undeniable. But in this rush toward tomorrow, there’s a critical truth many overlook:
 
 > **SDI isn’t dead — and for many operations, it’s still the right tool for right now.**
@@ -144,5 +142,3 @@ SDI has decades of refinement behind it.
 IP has decades of innovation ahead of it.
 
 And the industry’s strongest solutions lie **in leveraging both — wisely, and on a case‑by‑case basis.**
-
-***

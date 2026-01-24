@@ -29,19 +29,5 @@
       <guid>http://localhost:1313/tags/sdi/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Tag A</title>
-      <link>http://localhost:1313/tags/tag-a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tag-a/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag B</title>
-      <link>http://localhost:1313/tags/tag-b/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tag-b/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
