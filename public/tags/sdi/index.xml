@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Matt Thomas</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Matt Thomas</description>
+    <title>SDI on Matt Thomas</title>
+    <link>http://localhost:1313/tags/sdi/</link>
+    <description>Recent content in SDI on Matt Thomas</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 24 Jan 2026 11:20:59 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sdi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Why SDI Still Matters</title>
+      <title>Why sdi still matters</title>
       <link>http://localhost:1313/posts/why-sdi-still-matters/</link>
       <pubDate>Sat, 24 Jan 2026 11:20:59 +0100</pubDate>
       <guid>http://localhost:1313/posts/why-sdi-still-matters/</guid>

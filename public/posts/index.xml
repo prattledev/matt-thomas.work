@@ -6,21 +6,18 @@
     <description>Recent content in Posts on Matt Thomas</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 22 Jan 2026 15:24:18 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 11:20:59 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Another Test Post</title>
-      <link>http://localhost:1313/posts/another-test-post/</link>
-      <pubDate>Thu, 22 Jan 2026 15:24:18 +0100</pubDate>
-      <guid>http://localhost:1313/posts/another-test-post/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Test Post</title>
-      <link>http://localhost:1313/posts/test-post/</link>
-      <pubDate>Thu, 22 Jan 2026 15:05:57 +0100</pubDate>
-      <guid>http://localhost:1313/posts/test-post/</guid>
-      <description></description>
+      <title>Why SDI Still Matters</title>
+      <link>http://localhost:1313/posts/why-sdi-still-matters/</link>
+      <pubDate>Sat, 24 Jan 2026 11:20:59 +0100</pubDate>
+      <guid>http://localhost:1313/posts/why-sdi-still-matters/</guid>
+      <description>&lt;hr&gt;
+&lt;h1 id=&#34;why-sdi-still-matters-in-a-world-racing-toward-ip&#34;&gt;&lt;strong&gt;Why SDI Still Matters in a World Racing Toward IP&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;For years, the broadcast industry has been buzzing with a single message: &lt;strong&gt;IP is the future.&lt;/strong&gt; From SMPTE 2110 deployments to fully virtualized cloud production, the momentum behind IP‑based workflows is undeniable. But in this rush toward tomorrow, there’s a critical truth many overlook:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;SDI isn’t dead — and for many operations, it’s still the right tool for right now.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
