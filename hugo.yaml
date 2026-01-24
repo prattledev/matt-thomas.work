@@ -22,11 +22,11 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Hello 👋
-    subtitle:
-    imageUrl: 
-    imageWidth: 150
-    imageHeight: 150
-    imageTitle: my image
+    subtitle: Welcome to my blog!
+    imageUrl: mt_profile.jpg
+    imageWidth: 180
+    imageHeight: 175
+    imageTitle: Matt Thomas Profile
     buttons:
       - name: About
         url: about
