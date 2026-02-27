@@ -4,10 +4,21 @@
     <title>IP on Matt Thomas</title>
     <link>http://localhost:1313/tags/ip/</link>
     <description>Recent content in IP on Matt Thomas</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 24 Jan 2026 11:20:59 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 15:43:41 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ravenna Bandwidth Calculator</title>
+      <link>http://localhost:1313/posts/ravenna-bandwidth-calculator/</link>
+      <pubDate>Fri, 27 Feb 2026 15:43:41 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ravenna-bandwidth-calculator/</guid>
+      <description>&lt;h1 id=&#34;ravennacalc-a-simple-opensource-bandwidth-calculator&#34;&gt;RavennaCalc: A Simple, Open‑Source Bandwidth Calculator&lt;/h1&gt;
+&lt;p&gt;When planning temporary WAN services for major sports events, one question comes up again and again:&lt;br&gt;
+&lt;strong&gt;How much bandwidth do our Ravenna audio streams need?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Since fibre connectivity is expensive, we try to avoid over‑provisioning. For years, I used a basic Excel calculator to estimate bandwidth, but it wasn’t ideal — slow to update, hard to share, and far from elegant.&lt;/p&gt;
+&lt;p&gt;So I built something better.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why SDI Still Matters</title>
       <link>http://localhost:1313/posts/why-sdi-still-matters/</link>
@@ -16,8 +27,7 @@
       <description>&lt;hr&gt;
 &lt;p&gt;For years, the broadcast industry has been buzzing with a single message: &lt;strong&gt;IP is the future.&lt;/strong&gt; From SMPTE 2110 deployments to fully virtualized cloud production, the momentum behind IP‑based workflows is undeniable. But in this rush toward tomorrow, there’s a critical truth many overlook:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;SDI isn’t dead — and for many operations, it’s still the right tool for right now.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;SDI isn’t dead — and for many operations, it’s still the right tool for right now.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;In fact, SDI continues to play a pivotal role across live production, OB trucks, stadiums, and smaller broadcast facilities that demand reliability above all else. Let’s explore why SDI remains relevant, where it excels, and how it fits into a hybrid future.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -4,14 +4,21 @@
     <title>Categories on Matt Thomas</title>
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Matt Thomas</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 24 Jan 2026 11:20:59 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 15:43:41 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AoiP</title>
+      <link>http://localhost:1313/categories/aoip/</link>
+      <pubDate>Fri, 27 Feb 2026 15:43:41 +0000</pubDate>
+      <guid>http://localhost:1313/categories/aoip/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Broadcast Technology</title>
       <link>http://localhost:1313/categories/broadcast-technology/</link>
-      <pubDate>Sat, 24 Jan 2026 11:20:59 +0100</pubDate>
+      <pubDate>Fri, 27 Feb 2026 15:43:41 +0000</pubDate>
       <guid>http://localhost:1313/categories/broadcast-technology/</guid>
       <description></description>
     </item>
