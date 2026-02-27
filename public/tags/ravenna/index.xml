@@ -13,9 +13,9 @@
       <link>http://localhost:1313/posts/ravenna-bandwidth-calculator/</link>
       <pubDate>Fri, 27 Feb 2026 15:43:41 +0000</pubDate>
       <guid>http://localhost:1313/posts/ravenna-bandwidth-calculator/</guid>
-      <description>&lt;h1 id=&#34;ravennacalc-a-simple-opensource-bandwidth-calculator&#34;&gt;RavennaCalc: A Simple, Open‑Source Bandwidth Calculator&lt;/h1&gt;
-&lt;p&gt;When planning temporary WAN services for major sports events, one question comes up again and again:&lt;br&gt;
-&lt;strong&gt;How much bandwidth do our Ravenna audio streams need?&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;a-simple-opensource-bandwidth-calculator&#34;&gt;A Simple, Open‑Source Bandwidth Calculator&lt;/h2&gt;
+&lt;p&gt;When planning temporary WAN services for major sports events, one question comes up again and again:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How much bandwidth do our Ravenna audio streams need?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Since fibre connectivity is expensive, we try to avoid over‑provisioning. For years, I used a basic Excel calculator to estimate bandwidth, but it wasn’t ideal — slow to update, hard to share, and far from elegant.&lt;/p&gt;
 &lt;p&gt;So I built something better.&lt;/p&gt;</description>
     </item>

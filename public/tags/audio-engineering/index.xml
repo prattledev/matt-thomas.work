@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>AoIP on Matt Thomas</title>
-    <link>http://localhost:1313/categories/aoip/</link>
-    <description>Recent content in AoIP on Matt Thomas</description>
+    <title>Audio Engineering on Matt Thomas</title>
+    <link>http://localhost:1313/tags/audio-engineering/</link>
+    <description>Recent content in Audio Engineering on Matt Thomas</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 27 Feb 2026 15:43:41 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/aoip/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/audio-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ravenna Bandwidth Calculator</title>
       <link>http://localhost:1313/posts/ravenna-bandwidth-calculator/</link>
