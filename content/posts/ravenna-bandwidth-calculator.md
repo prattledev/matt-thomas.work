@@ -21,8 +21,6 @@ Since fibre connectivity is expensive, we try to avoid over‑provisioning. For 
 
 So I built something better.
 
-## A Lightweight Web Tool
-
 **RavennaCalc** is a clean, browser‑based bandwidth calculator for Ravenna streams. It’s open‑source, easy to use, and accessible to anyone who needs quick, reliable estimates.
 
 ## Try It Out
