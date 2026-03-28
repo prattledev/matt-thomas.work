@@ -13,22 +13,14 @@ title: "Ravenna Bandwidth Calculator"
 description: "Introducing RavennaCalc — an open-source, browser-based bandwidth calculator for Ravenna/AES67 audio streams, built for engineers planning live event WAN circuits."
 ---
 
-## A Simple, Open‑Source Bandwidth Calculator
+When planning temporary WAN services for major sports events, one question comes up again and again: **how much bandwidth do our Ravenna audio streams need?**
 
-When planning temporary WAN services for major sports events, one question comes up again and again:
-
-**How much bandwidth do our Ravenna audio streams need?**
-
-Since fibre connectivity is expensive, we try to avoid over‑provisioning. For years, I used a basic Excel calculator to estimate bandwidth, but it wasn’t ideal — slow to update, hard to share, and far from elegant.
+Fibre connectivity is expensive, and over‑provisioning costs money. For years I used a basic Excel spreadsheet to estimate bandwidth — it worked, but it was slow to update, hard to share, and far from elegant.
 
 So I built something better.
 
-![Ravenna Calc](../assets/ravcalc.png)
+![RavennaCalc screenshot](/assets/ravcalc.png)
 
-**RavennaCalc** is a clean, browser‑based bandwidth calculator for Ravenna streams. It’s open‑source, easy to use, and accessible to anyone who needs quick, reliable estimates.
+**[RavennaCalc](https://www.ravennacalc.com)** is a clean, browser‑based bandwidth calculator for Ravenna/AES67 streams. It's open‑source, takes seconds to use, and gives reliable estimates without the spreadsheet overhead.
 
-## Try It Out
-
-👉 **<https://www.ravennacalc.com>**
-
-If you find it useful or have ideas to improve it, I’d love to hear your feedback.
+If you find it useful or have ideas to improve it, I'd love to hear your feedback.
