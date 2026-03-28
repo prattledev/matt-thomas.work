@@ -19,7 +19,7 @@ Fibre connectivity is expensive, and over‑provisioning costs money. For years 
 
 So I built something better.
 
-![RavennaCalc screenshot](/assets/ravcalc.png)
+![RavennaCalc screenshot](/assets/ravcalc.png "RavennaCalc")
 
 **[RavennaCalc](https://www.ravennacalc.com)** is a clean, browser‑based bandwidth calculator for Ravenna/AES67 streams. It's open‑source, takes seconds to use, and gives reliable estimates without the spreadsheet overhead.
 
