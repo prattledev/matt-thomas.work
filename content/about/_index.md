@@ -1,5 +1,7 @@
 # About Me
 
+![Matt Thomas at Rio 2016](/assets/matt_thomas_rio2016_1.JPG)
+
 I’m Matt Thomas, an Audio and Communications Engineer with over 15 years of experience in broadcast engineering. I specialise in the planning, design, integration, and configuration of complex audio and comms systems for broadcasters where mission‑critical reliability is essential and failure isn’t an option.
 
 My career has taken me to some of the world’s most demanding live events, including major football tournaments, global elections, and the Olympic Games. I thrive in high‑pressure environments, collaborating with engineering and production teams to deliver high‑availability, world‑class systems that perform flawlessly when it matters most.
