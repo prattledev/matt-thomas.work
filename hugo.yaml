@@ -40,9 +40,6 @@ params:
       url: https://github.com/prattledev
     - name: linkedin
       url: https://www.linkedin.com/in/mrmthomas/
-    - name: ravennacalc
-      title: RavennaCalc
-      url: https://www.ravennacalc.com
     - name: rss
       url: /index.xml
 
