@@ -39,6 +39,6 @@ Channel density is another factor. MADI tops out at 64 channels per link. An IP 
 
 MADI and AoIP aren't really competing for the same jobs anymore - at least not in my experience. MADI is where you want reliability, simplicity, and near-zero configuration overhead. AoIP is where you need scale, flexibility, or integration with IP infrastructure.
 
-Most of the systems I work on use both. MADI between consoles and stagebox, Ravenna for distribution and remote feeds. That's not a compromise - it's just using the right tool for each part of the job.
+Most of the systems I work on use both. MADI between audio consoles and intercom systems, Ravenna for distribution and remote feeds. That's not a compromise - it's just using the right tool for each part of the job.
 
 What I'd push back on is the idea that MADI is somehow beneath serious consideration. It's a mature, stable, well-supported technology that solves a specific set of problems very well. In broadcast, that tends to have a long shelf life.
