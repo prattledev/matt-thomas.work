@@ -8,6 +8,7 @@ tags:
 - IP
 - Opinion
 title: 'Why SDI Still Matters'
+description: "IP is the future of broadcast — but SDI remains the right tool for many live productions today. Here's why the hybrid approach wins."
 ---
 
 ***

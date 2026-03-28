@@ -10,6 +10,7 @@ tags:
   - Ravenna
   - Tools
 title: "Ravenna Bandwidth Calculator"
+description: "Introducing RavennaCalc — an open-source, browser-based bandwidth calculator for Ravenna/AES67 audio streams, built for engineers planning live event WAN circuits."
 ---
 
 ## A Simple, Open‑Source Bandwidth Calculator

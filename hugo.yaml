@@ -10,8 +10,8 @@ caches:
 params:
   env: production
   title: Matt Thomas
-  description: "Matt Thomas personal website"
-  keywords: [Blog, Portfolio]
+  description: "Broadcast and AoIP engineering — writing about the systems that keep live events on air."
+  keywords: [Broadcast Engineering, AoIP, SDI, Ravenna, Audio Engineering, Live Production, IP Media]
   author: Matt Thomas
   defaultTheme: light
   disableThemeToggle: true
@@ -22,7 +22,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Hello 👋
-    subtitle: Welcome to my blog!
+    subtitle: "Broadcast & AoIP engineering — writing about the systems that keep live events on air."
     imageUrl: mt_profile.jpg
     imageWidth: 180
     imageHeight: 175
@@ -32,12 +32,19 @@ params:
         url: about
       - name: Posts
         url: posts
+      - name: Projects
+        url: projects
 
   socialIcons:
     - name: github
       url: https://github.com/prattledev
     - name: linkedin
       url: https://www.linkedin.com/in/mrmthomas/
+    - name: ravennacalc
+      title: RavennaCalc
+      url: https://www.ravennacalc.com
+    - name: rss
+      url: /index.xml
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -57,3 +64,7 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 5
