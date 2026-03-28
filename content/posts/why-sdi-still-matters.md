@@ -11,62 +11,34 @@ title: 'Why SDI Still Matters'
 description: "IP is the future of broadcast — but SDI remains the right tool for many live productions today. Here's why the hybrid approach wins."
 ---
 
-For years, the broadcast industry has been buzzing with a single message: **IP is the future.** From SMPTE 2110 deployments to fully virtualised cloud production, the momentum behind IP‑based workflows is undeniable. But in this rush toward tomorrow, there's a critical truth many overlook:
+Every year I go to a trade show and hear the same thing: SDI is dead, IP is the future, and anyone still running coax is holding back progress. I've been hearing this for the better part of a decade now.
 
-> SDI isn't dead — and for many operations, it's still the right tool for right now.
+And yet, when I'm on-site at a major live event — wiring up comms systems, routing audio under pressure, troubleshooting at midnight before a show goes on air — SDI is still there, doing exactly what it's always done. Quietly and reliably.
 
-In fact, SDI continues to play a pivotal role across live production, OB trucks, stadiums, and smaller broadcast facilities that demand reliability above all else.
+I work primarily in audio and communications, so I'm not going to pretend I have no horse in this race. But I've spent enough time on OB trucks, in temporary broadcast centres, and at events where failure simply isn't an option to have a fairly clear view of when each technology earns its place.
 
-## The Reliability Advantage
+## Why SDI keeps showing up
 
-In live production, the stakes are high. Downtime is unacceptable. Latency isn't just a number — it's a viewer's experience, a replay operator's reaction time, and an entire show's credibility.
+The thing about SDI is that it doesn't ask much of you. Plug it in, it works. There's no multicast routing to configure, no PTP timing to synchronise, no VLAN to segment. When you're building a temporary system under time pressure with a team that hasn't worked together before, that simplicity has real value.
 
-SDI's biggest advantages remain its **deterministic performance** and **ultra‑low latency**. It's point‑to‑point and predictable — there's no packet loss, jitter, or QoS to manage. It either works or it doesn't. And unlike IP, which can achieve low latency, SDI *is* low latency by design.
+It's also deterministic in a way that IP still isn't by default. One cable, one signal, one path. Either it works or it doesn't — and if it doesn't, you know exactly where to look. In a live environment, that kind of immediate fault isolation is worth a lot.
 
-There's also the matter of simplicity. With SDI, you don't need multicast routing, PTP timing, VLAN segmentation, or network specialists on standby. Plug in, and it works.
+## The WBD example
 
-## Cost Efficiency
+When it came out that Warner Bros. Discovery were building a predominantly SDI‑based system for the Milano‑Cortina Winter Olympics, some people in the industry seemed surprised. I wasn't.
 
-Transitioning to ST 2110 or NDI‑based workflows is a significant investment. For many organisations, **the ROI simply isn't there yet** — especially when their existing SDI infrastructure already delivers flawless results.
+For an operation at that scale — hundreds of feeds, complex routing, a large team working under enormous pressure — SDI makes sense. Everyone on that crew knows it. The workflows are proven. The failure modes are understood. Introducing a large‑scale IP infrastructure into a temporary setup of that complexity would add risk without necessarily adding much practical benefit.
 
-SDI remains cost‑effective when signal paths are fixed and predictable, when teams are already trained in SDI workflows, and when IP's scalability doesn't solve an existing problem. For small to medium facilities, an SDI backbone with selective IP elements often delivers the best balance of performance and budget.
+That's not a criticism of IP. It's just an honest assessment of requirements.
 
-## A Real‑World Example: Warner Bros. Discovery & the 2026 Winter Olympics
+## Where IP genuinely wins
 
-A perfect illustration of this pragmatic approach comes from **Warner Bros. Discovery's broadcast plans for the Milano‑Cortina Winter Olympics**.
+I'm not anti-IP. I think it's clearly where the industry is heading, and for good reason. Remote production over IP has genuinely changed what's possible — I've seen facilities route audio across continents in ways that would have been unthinkable a few years ago.
 
-Despite the widespread industry shift toward IP, WBD opted to build a primarily SDI‑based production system for the event — because the requirements pointed clearly in that direction:
+Where IP comes into its own is in flexibility and scale. Reconfiguring a large SDI router is a physical job. Doing the same thing on an IP network is a software change. For productions that need to adapt quickly, or that span multiple sites, that matters enormously.
 
-- Large‑scale, mission‑critical live sports
-- Hundreds of simultaneous feeds
-- Complex routing under tight operational pressure
-- A distributed team already fluent in SDI workflows
-- Predictable, deterministic signal paths in temporary setups
+## The honest answer
 
-For an event of this magnitude, where reliability and ultra‑low latency are non‑negotiable, SDI offered the most robust and risk‑free foundation.
+The honest answer is that most real-world broadcast environments aren't all-IP or all-SDI — they're hybrid, and probably will be for some time. The instinct to frame this as a debate misses the point. They solve different problems well.
 
-> SDI vs. IP isn't ideological — it's a case‑by‑case decision based on requirements.
-
-## The Hybrid Reality
-
-Most modern broadcast environments embrace a hybrid workflow, and that's the point. SDI and IP aren't competing technologies — they're complementary ones.
-
-**SDI excels at** camera chains, routing, monitoring, OB truck workflows, and redundancy‑critical systems. **IP excels at** remote production, cloud‑based control rooms, virtualised multiviewers and replay, dynamic scaling, and multi‑site collaboration.
-
-Vendors understand this, which is why almost every major switcher, multiviewer, and replay platform now supports both SDI and IP inputs.
-
-## Where SDI Still Wins
-
-**OB trucks and mobile units** — predictability, low power, and straightforward routing make SDI ideal for road‑based production.
-
-**Small and medium studios** — when cable runs are short and throughput is known, SDI is simpler and cheaper.
-
-**High‑frame‑rate and HDR workflows** — 12G‑SDI handles 4K, HDR, and HFR with ease, without the complexity of IP bandwidth management.
-
-**Redundancy‑critical environments** — one cable per signal, simple redundancy, immediate troubleshooting.
-
-## Conclusion
-
-IP is undeniably the long‑term direction of broadcast and live production. But SDI remains a powerful, dependable, and deeply relevant technology.
-
-SDI has decades of refinement behind it. IP has decades of innovation ahead of it. And the industry's strongest solutions lie in leveraging both — wisely, and on a case‑by‑case basis.
+What I do think is worth pushing back on is the idea that staying with SDI represents some kind of failure to modernise. Sometimes it's just the right tool for the job.
