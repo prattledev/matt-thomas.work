@@ -22,7 +22,7 @@ That's the problem MXL is designed to solve.
 
 ## What MXL actually is
 
-MXL - the Media eXchange Layer - is an open-source SDK that implements the EBU's Dynamic Media Facility reference architecture. It's designed for sharing media between software processes running in the same environment, whether that's a cloud instance, a containerised deployment, or an on-premise software stack.
+MXL - the Media eXchange Layer - is an [open-source SDK](https://github.com/dmf-mxl/mxl) that implements the EBU's Dynamic Media Facility reference architecture. It's designed for sharing media between software processes running in the same environment, whether that's a cloud instance, a containerised deployment, or an on-premise software stack.
 
 The key concept is zero-copy shared memory. Rather than each application in a chain copying audio data as it passes it along, MXL allows processes to share access to the same memory. For high channel counts and low-latency requirements, this makes a meaningful difference - copying large amounts of audio data repeatedly is expensive, and in a software-defined facility running many concurrent processes, that cost adds up quickly.
 
