@@ -54,3 +54,5 @@ The practical implication is interoperability. A Ravenna device from one manufac
 Adoption is still uneven, particularly in live event and temporary broadcast centre contexts where I spend most of my time. A lot of AoIP deployments at that level still rely on proprietary control surfaces and manual configuration. But the direction is clear, and for anyone specifying new AoIP infrastructure, NMOS compatibility is worth treating as a baseline requirement rather than an optional feature.
 
 If you want to explore a working implementation, Sony's [nmos-cpp](https://github.com/sony/nmos-cpp) is an open-source, AMWA-validated registry and node implementation that covers IS-04 and IS-05 among others. It's a good reference for understanding how the specs translate into a real system.
+
+For a practical control tool, Riedel's [NMOS Explorer](https://myriedel.riedel.net/) is a free application that lets you browse an IS-04 registry and make IS-05 connections. It's a useful way to interact with an NMOS environment without building your own control layer.
