@@ -22,7 +22,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Hello 👋
-    subtitle: "Broadcast & AoIP engineering — writing about the systems that keep live events on air."
+    subtitle: "Broadcast & AoIP engineering - writing about the systems that keep live events on air."
     imageUrl: mt_profile.jpg
     imageWidth: 180
     imageHeight: 175
