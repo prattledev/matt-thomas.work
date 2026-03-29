@@ -1,5 +1,5 @@
 ---
-date: '2026-03-28T12:00:00+00:00'
+date: 2026-03-28T12:00:00+00:00
 draft: false
 categories:
 - Broadcast Technology
