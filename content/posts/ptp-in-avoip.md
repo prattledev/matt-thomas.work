@@ -67,6 +67,16 @@ When a PTP domain starts up, devices use the BMCA to elect a grandmaster. The al
 
 In a production environment, you typically want to explicitly set Priority1 on your designated grandmaster to ensure it always wins the election. Leaving everything at default and hoping the right device wins is a recipe for problems when a device reboots mid-show.
 
+## PTP Domains
+
+A PTP domain is a logical grouping of clocks that synchronise with each other. Devices only exchange PTP messages with other devices in the same domain - a device in domain 0 will completely ignore PTP traffic from a device in domain 127, even if they're on the same network segment.
+
+Domain numbers run from 0 to 255. Domain 0 is the default and is what most AoIP devices use out of the box. SMPTE ST 2059-2 recommends domain 127 for the broadcast profile, but in practice audio and video devices typically share the same PTP domain - everyone locked to the same grandmaster, on the same domain number.
+
+Running multiple domains on the same network is possible, but in most production environments a single domain is simpler and sufficient. Where separate domains are used, it's usually to isolate a redundant or backup clock infrastructure rather than to separate media types.
+
+The practical implication is that when a device isn't locking to PTP, checking the domain number is one of the first things to verify. It's a surprisingly common misconfiguration - particularly when mixing equipment from manufacturers that ship with different domain defaults.
+
 ## Network Considerations
 
 PTP accuracy is heavily influenced by the network it runs on. A few things that matter in practice:
@@ -74,8 +84,6 @@ PTP accuracy is heavily influenced by the network it runs on. A few things that 
 **Hardware timestamping** - PTP timestamps should be applied as close to the physical layer as possible. Software timestamping, where the operating system applies the timestamp, introduces jitter that limits accuracy. Managed switches with hardware PTP support (transparent or boundary clocks) make a significant difference.
 
 **Asymmetric delay** - PTP assumes the path from master to slave has the same delay as the path from slave to master. If the network introduces asymmetric latency (different delay in each direction), the offset calculation will be wrong. This can be an issue with certain switch configurations.
-
-**PTP domain numbers** - all devices that need to synchronise must be in the same PTP domain (0 is the default). Mixing domain numbers is a common misconfiguration.
 
 **Multicast vs unicast** - AES67 uses multicast PTP by default, which works well on a dedicated media network. On shared or routed networks, unicast PTP negotiation may be preferable to avoid flooding multicast traffic across the infrastructure.
 
