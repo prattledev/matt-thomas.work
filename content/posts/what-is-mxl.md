@@ -38,7 +38,7 @@ MXL provides a standardised, open, and non-proprietary way to handle those hando
 
 ## Where it fits
 
-I'd think of MXL as operating at a different layer to AoIP transport protocols, not replacing them. Ravenna brings audio into the facility over the network. MXL moves it around inside the facility between software processes. The two are complementary.
+I'd think of MXL as operating at a different layer to AoIP transport protocols, not replacing them. AoIP protocols move audio around the facility over the network. MXL moves it around inside the software processes. The two are complementary.
 
 It's also worth noting the governance model. MXL is Apache 2.0 licensed and maintained through collaborative engagement between broadcasters and technology suppliers - similar in spirit to how AES67 emerged as a common interoperability layer above competing proprietary protocols. That open approach is usually a good sign for long-term adoption.
 
