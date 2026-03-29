@@ -25,7 +25,7 @@ That's what NMOS addresses.
 
 ## What NMOS is
 
-NMOS - Networked Media Open Specifications - is a family of open standards developed by AMWA, the Advanced Media Workflow Association. The specifications cover different aspects of managing networked media infrastructure, from device discovery through to connection management, audio channel mapping, and event distribution. AMWA have a [non-technical overview](https://www.amwa.tv/nmos-overview) if you want a broader introduction before diving into the specs.
+NMOS - Networked Media Open Specifications - is a family of open standards developed by [AMWA](https://github.com/AMWA-TV), the Advanced Media Workflow Association. The specifications cover different aspects of managing networked media infrastructure, from device discovery through to connection management, audio channel mapping, and event distribution. AMWA have a [non-technical overview](https://www.amwa.tv/nmos-overview) if you want a broader introduction before diving into the specs.
 
 Two specifications sit at the foundation: IS-04 and IS-05.
 
