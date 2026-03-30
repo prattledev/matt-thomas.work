@@ -75,7 +75,6 @@ SIP's biggest practical advantage over proprietary contribution codec protocols 
 
 In reality, interoperability is best when both ends support Opus or G.722 as a minimum. G.711 is the universal fallback but the quality cost is significant for anything other than coordination audio. Most modern hardware broadcast codecs support Opus, and most SIP softphones do too, so in practice a well-configured SBC with sensible codec priority ordering handles most situations automatically.
 
-The area where interoperability still requires attention is 4-wire working - where you need separate send and return paths with full-duplex audio and minimal latency. Some vendors handle this with two simultaneous SIP calls, others with proprietary extensions to the SIP session. It's worth verifying 4-wire behaviour specifically when mixing equipment from different manufacturers.
 
 ## A Practical Note on Latency
 
