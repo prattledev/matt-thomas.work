@@ -26,7 +26,7 @@ AES67 mandates IEEE 1588-2008 (PTPv2). SMPTE ST 2110-30, which governs audio in 
 
 ## PTP Versions
 
-**IEEE 1588-2002 (PTPv1)** - the original specification. Rarely seen in broadcast environments today. Incompatible with v2 at the message level.
+**IEEE 1588-2002 (PTPv1)** - the original specification. Rarely seen in broadcast environments today, though notably Dante uses PTPv1 for its internal clock synchronisation. It is incompatible with v2 at the message level, which is worth keeping in mind when Dante devices share a network with AES67 equipment.
 
 **IEEE 1588-2008 (PTPv2)** - the version you'll encounter in virtually every AoIP system. Significantly improved accuracy over v1, introduced the concept of transparent clocks, and added better support for different network topologies. This is what AES67 and ST 2110 use.
 
