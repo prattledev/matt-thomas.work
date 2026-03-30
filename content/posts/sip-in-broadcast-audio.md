@@ -1,5 +1,5 @@
 ---
-date: 2026-03-30T10:00:00Z
+date: 2026-03-30T00:00:00Z
 draft: false
 categories:
 - Broadcast Technology
