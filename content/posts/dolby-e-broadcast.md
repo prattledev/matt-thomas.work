@@ -2,14 +2,14 @@
 date: 2026-03-30T02:00:00Z
 draft: false
 categories:
-- Broadcast Technology
+  - Broadcast Technology
 tags:
-- Dolby E
-- Audio Engineering
-- SDI
-- Broadcast
-- Surround Sound
-title: 'Dolby E - Why It Still Matters in Broadcast Contribution'
+  - Dolby E
+  - Audio Engineering
+  - SDI
+  - Broadcast
+  - Surround Sound
+title: "Dolby E - Why It Still Matters in Broadcast Contribution"
 description: "Dolby E has been part of broadcast audio infrastructure for over two decades. Despite the move toward IP and immersive audio, it remains deeply embedded in contribution and distribution chains - and understanding it is still essential for broadcast engineers."
 ---
 
@@ -28,10 +28,11 @@ Dolby E frames are locked to video frame boundaries, which is fundamental to why
 Standard definition and high definition SDI both support up to 16 channels of embedded audio, arranged as eight AES pairs. On the surface that sounds like plenty. But consider a typical live sports production:
 
 - A 5.1 programme mix requires 6 channels
-- An international stereo mix requires 2 more
-- A clean feed requires another 2
-- Commentary in two languages adds 4 more
-- That's already 14 channels, and you haven't added a music and effects mix, a stadium ambience feed, or secondary language options
+- A programme stereo mix requires 2 more
+- A 5.1 international sound mix (everything minus commentary) requires 6 more
+- An international sound stereo mix (everything minus commentary) requires 2 more
+- Clean commentary in two languages or hame and away adds 2 more
+- That's already 18 channels, and you haven't added a music and effects mix, a stadium ambience feed, or secondary language options
 
 By encoding a 5.1 programme plus a stereo programme into a single Dolby E stream - which occupies just one of the eight AES pairs in SDI - you effectively double the audio capacity of the signal. A single HD-SDI feed can carry multiple Dolby E programs alongside conventional PCM audio in the remaining pairs.
 
