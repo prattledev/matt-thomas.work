@@ -28,9 +28,9 @@ Dolby E frames are locked to video frame boundaries, which is fundamental to why
 Standard definition and high definition SDI both support up to 16 channels of embedded audio, arranged as eight AES pairs. On the surface that sounds like plenty. But consider a typical live sports production:
 
 - A 5.1 programme mix requires 6 channels
-- A programme stereo mix requires 2 more
+- A stereo programme mix requires 2 more
 - A 5.1 international sound mix (everything minus commentary) requires 6 more
-- An international sound stereo mix (everything minus commentary) requires 2 more
+- A stereo international sound mix (everything minus commentary) requires 2 more
 - Clean commentary in two languages or hame and away adds 2 more
 - That's already 18 channels, and you haven't added a music and effects mix, a stadium ambience feed, or secondary language options
 
