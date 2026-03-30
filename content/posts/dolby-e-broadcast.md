@@ -31,7 +31,7 @@ Standard definition and high definition SDI both support up to 16 channels of em
 - A stereo programme mix requires 2 more
 - A 5.1 international sound mix (everything minus commentary) requires 6 more
 - A stereo international sound mix (everything minus commentary) requires 2 more
-- Clean commentary in two languages or hame and away adds 2 more
+- Clean commentary in two languages or home and away adds 2 more
 - That's already 18 channels, and you haven't added a music and effects mix, a stadium ambience feed, or secondary language options
 
 By encoding a 5.1 programme plus a stereo programme or home and away clean commentary into a single Dolby E stream - which occupies just one of the eight AES pairs in SDI - you effectively double the audio capacity of the signal. A single HD-SDI feed can carry multiple Dolby E programs alongside conventional PCM audio in the remaining pairs.
@@ -78,7 +78,7 @@ The Dolby E metadata packet travels inside every Dolby E frame. At minimum it ca
 
 **Downmix levels** - the cmixlev and surmixlev values described above.
 
-**DRC profiles** - Dynamic Range Control. Defines profiles that consumer decoders can apply to reduce dynamic range in environments where full dynamic range isn't practical (late night listening, noisy environments). Film standard DRC is common in broadcast, though the appropriate setting depends on the programme type.
+**DRC profiles** - Dynamic Range Control. Defines profiles that consumer decoders can apply to reduce dynamic range in environments where full dynamic range isn't practical (late night listening, noisy environments). Film Light DRC is common in broadcast, though the appropriate setting depends on the programme type.
 
 **Bitstream mode** - whether the programme is a complete main mix, a music and effects track, a commentary-only feed, etc. This is relevant in contribution chains where multiple Dolby E programmes are carried with different roles.
 
