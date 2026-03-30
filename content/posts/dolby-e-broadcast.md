@@ -34,7 +34,7 @@ Standard definition and high definition SDI both support up to 16 channels of em
 - Clean commentary in two languages or hame and away adds 2 more
 - That's already 18 channels, and you haven't added a music and effects mix, a stadium ambience feed, or secondary language options
 
-By encoding a 5.1 programme plus a stereo programme into a single Dolby E stream - which occupies just one of the eight AES pairs in SDI - you effectively double the audio capacity of the signal. A single HD-SDI feed can carry multiple Dolby E programs alongside conventional PCM audio in the remaining pairs.
+By encoding a 5.1 programme plus a stereo programme or home and away clean commentary into a single Dolby E stream - which occupies just one of the eight AES pairs in SDI - you effectively double the audio capacity of the signal. A single HD-SDI feed can carry multiple Dolby E programs alongside conventional PCM audio in the remaining pairs.
 
 This is not a workaround or a legacy compromise. It's a deliberate and effective solution to a real constraint, and the constraint hasn't gone away just because IP networks now exist alongside SDI infrastructure.
 
