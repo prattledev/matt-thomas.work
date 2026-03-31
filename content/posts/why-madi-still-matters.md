@@ -8,6 +8,9 @@ tags:
 - MADI
 - AoIP
 - Audio Engineering
+cover:
+  image: /assets/m1k2.jpg
+  alt: "Merging Technologies MADI routing system"
 - Opinion
 title: 'Why MADI Still Matters'
 description: "AoIP is transforming broadcast audio, but MADI remains a practical, reliable choice for many productions. Here's why it's not going anywhere yet."
