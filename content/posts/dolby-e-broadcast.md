@@ -11,6 +11,9 @@ tags:
   - Surround Sound
 title: "Dolby E - Why It Still Matters in Broadcast Contribution"
 description: "Dolby E has been part of broadcast audio infrastructure for over two decades. Despite the move toward IP and immersive audio, it remains deeply embedded in contribution and distribution chains - and understanding it is still essential for broadcast engineers."
+cover:
+  image: dolbyehw.jpg
+  alt: "Dolby DP571 Encoder and DP572 Decoder"
 ---
 
 There's a tendency in broadcast to talk about technology in terms of what's replacing it. Dolby E is overdue for that conversation in some quarters. And yet, if you're working in contribution, live event production, or linear broadcast distribution, Dolby E is still very much present. Understanding what it is, why it exists, and what it's carrying in its metadata is not optional knowledge for anyone doing serious audio engineering in broadcast.
