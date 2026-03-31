@@ -13,6 +13,9 @@ tags:
 - IS-05
 title: 'What is NMOS, and Why Does It Matter for AoIP?'
 description: "AoIP solves how audio travels across a network. NMOS tackles what comes next - how devices discover each other and how connections are made and managed."
+cover:
+  image: nmos.jpeg
+  alt: "NMOS - Networked Media Open Specifications"
 ---
 
 One of the things I find interesting about the broadcast industry's move to IP is how the conversation tends to focus on transport. Ravenna, AES67, ST 2110 - these are protocols for moving media across a network, and they've matured significantly over the last decade. But transport is only part of the picture.
