@@ -12,6 +12,9 @@ tags:
   - Cloud
 title: "What is MXL, and Why Does It Matter for Broadcast Audio?"
 description: "Most AoIP discussions focus on network transport. MXL tackles a different problem - how audio moves between software processes in cloud and containerised broadcast environments."
+cover:
+  image: mxl_logo.png
+  alt: "MXL - Media eXchange Layer"
 ---
 
 When we talk about audio over IP in broadcast, the conversation almost always centres on network transport. How do we get audio from A to B over an IP network? That's where Ravenna, AES67, Dante, and MADI-over-IP live. It's an important problem, and the industry has largely solved it.
