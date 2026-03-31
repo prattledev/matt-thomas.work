@@ -12,6 +12,9 @@ tags:
 - IP
 title: 'PTP in AVoIP - A Practical Guide for Audio Engineers'
 description: "PTP is the invisible foundation that makes synchronised audio over IP possible. Understanding how it works - and how to troubleshoot it - is essential for anyone working with AES67 and ST 2110 systems."
+cover:
+  image: ptp.jpeg
+  alt: "Precision Time Protocol - synchronised clocks"
 ---
 
 Of all the things that can go wrong in an AoIP system, PTP problems are among the most frustrating to diagnose. The audio often still plays - just with intermittent glitches, drift, or lip sync issues that are hard to reproduce and harder to pin down. Understanding what PTP is doing, and why, makes a significant difference when you're standing in a broadcast centre an hour before air wondering why your streams are misbehaving.
