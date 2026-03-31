@@ -27,7 +27,7 @@ Dolby E frames are locked to video frame boundaries, which is fundamental to why
 
 ## Why SDI Made Dolby E Necessary
 
-Standard definition and high definition SDI both support up to 16 channels of embedded audio, arranged as eight AES pairs. On the surface that sounds like plenty. But consider a typical live sports production:
+SDI supports up to 16 channels of embedded audio, arranged as eight AES pairs. On the surface that sounds like plenty. But consider a typical live sports production:
 
 - A 5.1 programme mix requires 6 channels
 - A stereo programme mix requires 2 more
@@ -51,6 +51,8 @@ The critical point is that the metadata carried inside the Dolby E stream travel
 ## Downmix and Why It Matters
 
 One of the most important functions Dolby E metadata serves is defining how a multichannel mix should fold down to stereo for consumers without surround sound systems. This downmix happens automatically - either in the consumer decoder or at the point of broadcast encoding - and the parameters that control it are carried in the Dolby E metadata throughout the chain.
+
+![Surround downmix diagram](/assets/surrround_downmix.png)
 
 The key parameters are:
 
