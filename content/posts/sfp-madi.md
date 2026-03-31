@@ -10,6 +10,9 @@ tags:
 - Fibre
 title: 'SFPs for MADI - What You Need to Know'
 description: "Optical MADI over SFP is common in broadcast facilities and OB trucks, but not all SFPs are equal. Here's what to look for to ensure compatibility."
+cover:
+  image: madi_sfp.jpg
+  alt: "Cisco SFP-OC3-SR - an OC-3 SFP suitable for MADI"
 ---
 
 Optical MADI is everywhere in broadcast - OB trucks, broadcast centres, temporary installations. It covers distances that coax can't, it's immune to ground loops, and a single fibre carries the same 64 channels as a coax cable. Most MADI-capable equipment implements the optical interface via an SFP cage, which gives you flexibility in connector type and fibre distance - provided you use the right module.
