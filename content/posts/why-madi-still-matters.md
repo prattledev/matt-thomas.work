@@ -11,7 +11,7 @@ tags:
 - Opinion
 title: 'Why MADI Still Matters'
 cover:
-  image: /assets/m1k2.jpg
+  image: m1k2.jpg
   alt: "DirectOut Technologies MADI Routing System"
 description: "AoIP is transforming broadcast audio, but MADI remains a practical, reliable choice for many productions. Here's why it's not going anywhere yet."
 ---
