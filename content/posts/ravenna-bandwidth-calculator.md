@@ -11,6 +11,9 @@ tags:
   - Tools
 title: "Ravenna Bandwidth Calculator"
 description: "Introducing RavennaCalc — an open-source, browser-based bandwidth calculator for Ravenna/AES67 audio streams, built for engineers planning live event WAN circuits."
+cover:
+  image: ravenna_logo.png
+  alt: "Ravenna AES67 & ST 2110"
 ---
 
 When planning temporary WAN services for major sports events, one question comes up again and again: **how much bandwidth do our Ravenna audio streams need?**
