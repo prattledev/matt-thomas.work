@@ -14,7 +14,7 @@ tags:
 title: 'What is NMOS, and Why Does It Matter for AoIP?'
 description: "AoIP solves how audio travels across a network. NMOS tackles what comes next - how devices discover each other and how connections are made and managed."
 cover:
-  image: nmos.jpeg
+  image: nmos.png
   alt: "NMOS - Networked Media Open Specifications"
 ---
 
