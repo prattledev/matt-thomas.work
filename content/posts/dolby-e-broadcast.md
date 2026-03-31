@@ -52,7 +52,7 @@ The critical point is that the metadata carried inside the Dolby E stream travel
 
 One of the most important functions Dolby E metadata serves is defining how a multichannel mix should fold down to stereo for consumers without surround sound systems. This downmix happens automatically - either in the consumer decoder or at the point of broadcast encoding - and the parameters that control it are carried in the Dolby E metadata throughout the chain.
 
-![Surround downmix diagram](/assets/surrround_downmix.png)
+![Surround downmix diagram](/assets/surround_downmix.png)
 
 The key parameters are:
 
