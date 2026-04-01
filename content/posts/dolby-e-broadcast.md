@@ -89,6 +89,20 @@ The Dolby E metadata packet travels inside every Dolby E frame. At minimum it ca
 
 **Bitstream mode** - whether the programme is a complete main mix, a music and effects track, a commentary-only feed, etc. This is relevant in contribution chains where multiple Dolby E programmes are carried with different roles.
 
+A common set of metadata values used in UK broadcast is shown below:
+
+| Parameter                 | Value      |
+| ------------------------- | ---------- |
+| Dialogue Level            | -23 dB     |
+| Line Mode Compression     | Film Light |
+| RF Mode Compression       | Film Light |
+| Centre Down Mix Level     | -3 dB      |
+| Surround Down Mix Level   | -6 dB      |
+| Surround 3dB Attn.        | Disabled   |
+| Dolby Surround Mode       | Disabled   |
+| Preferred Stereo Down-mix | Lo/Ro      |
+| Surround Phase Shift      | Disabled   |
+
 Getting the metadata right is as much a part of delivering a correct Dolby E signal as getting the audio levels right. On major events, agreeing the metadata values with the downstream broadcaster before the event - and checking them in monitoring during the broadcast - is standard practice.
 
 ## Why It's Still There
