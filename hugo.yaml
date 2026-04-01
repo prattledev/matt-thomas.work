@@ -9,6 +9,8 @@ caches:
 
 params:
   env: production
+  verification:
+    google: P-wIWVinm5NP11vEuW0qjB1UXvL5WqinhElhQLWQjlk
   title: Matt Thomas
   description: "Broadcast and AoIP engineering — writing about the systems that keep live events on air."
   keywords: [Broadcast Engineering, AoIP, SDI, Ravenna, Audio Engineering, Live Production, IP Media]
