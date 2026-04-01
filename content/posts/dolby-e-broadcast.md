@@ -87,8 +87,6 @@ The Dolby E metadata packet travels inside every Dolby E frame. At minimum it ca
 
 **DRC profiles** - Dynamic Range Control. Defines profiles that consumer decoders can apply to reduce dynamic range in environments where full dynamic range isn't practical (late night listening, noisy environments). Film Light DRC is common in broadcast, though the appropriate setting depends on the programme type.
 
-**Bitstream mode** - whether the programme is a complete main mix, a music and effects track, a commentary-only feed, etc. This is relevant in contribution chains where multiple Dolby E programmes are carried with different roles.
-
 A common set of metadata values used in UK broadcast is shown below:
 
 | Parameter                 | Value      |
