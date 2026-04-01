@@ -12,6 +12,9 @@ tags:
 - Redundancy
 title: "SMPTE ST 2022-7 - Seamless Redundancy for IP Media"
 description: "ST 2022-7 defines a hitless redundancy scheme for IP media streams, sending identical content over two independent network paths and silently discarding any packets that arrive late or not at all. Here is what it does, how it works, and where it fits in broadcast AoIP."
+cover:
+  image: 2022-7.png
+  alt: "ST 2022-7 dual redundant network path diagram - Red and Blue networks"
 ---
 
 Broadcast infrastructure has always been built around redundancy. Dual power supplies, redundant signal paths, failover routing - the principle is the same everywhere: no single point of failure should take a show off air. When broadcast moved to IP, the question became how to achieve the same resilience on a packet network, where the failure modes are fundamentally different from SDI.
