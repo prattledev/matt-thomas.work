@@ -2,14 +2,14 @@
 date: 2026-03-30T00:00:00Z
 draft: false
 categories:
-- Broadcast Technology
+  - Broadcast Technology
 tags:
-- SIP
-- Audio Engineering
-- Comms
-- IP
-- Codecs
-title: 'SIP in Broadcast Audio - Commentary and Coordination Circuits Over IP'
+  - SIP
+  - Audio Engineering
+  - Comms
+  - IP
+  - Codecs
+title: "SIP in Broadcast Audio - Commentary and Coordination Circuits Over IP"
 description: "ISDN is gone and dedicated circuits are expensive. SIP gives broadcast facilities a standardised, interoperable way to bring commentary and coordination audio in and out over the internet."
 cover:
   image: sip.png
@@ -40,7 +40,7 @@ For coordination circuits - talkback to journalists, IFB to presenters, intercom
 
 A typical broadcast SIP setup for incoming contribution circuits looks like this:
 
-**At the facility:**
+**At the facility or in the cloud:**
 
 A **Session Border Controller (SBC)** sits at the edge of the network, facing the internet. The SBC handles NAT traversal, authenticates incoming SIP connections, and acts as a security and interoperability layer between the public internet and the internal facility network. It also handles transcoding if the remote codec and the internal system don't share a common codec.
 
@@ -77,7 +77,6 @@ Codec selection determines audio quality, latency, and interoperability. SIP neg
 SIP's biggest practical advantage over proprietary contribution codec protocols is that it provides a common signalling framework. A Tieline codec, a Comrex unit, a software client, and a facility SBC can all establish calls with each other without vendor-specific configuration - provided they share a common codec.
 
 In reality, interoperability is best when both ends support Opus or G.722 as a minimum. G.711 is the universal fallback but the quality cost is significant for anything other than coordination audio. Most modern hardware broadcast codecs support Opus, and most SIP softphones do too, so in practice a well-configured SBC with sensible codec priority ordering handles most situations automatically.
-
 
 ## A Practical Note on Latency
 
