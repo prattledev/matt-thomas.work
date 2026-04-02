@@ -57,6 +57,20 @@ Understanding which profile your devices are running matters when mixing equipme
 
 **Transparent Clock (TC)** - passes PTP messages through without terminating the protocol, but corrects for the time the message spends inside the device (residence time). This prevents switch-induced delay from corrupting the offset calculation. End-to-end transparent clocks are common in AoIP-aware network switches. Without transparent clocks or boundary clocks in your switches, PTP accuracy degrades significantly as network scale increases.
 
+## Locking the Grandmaster to GPS
+
+In a permanent broadcast facility, the PTP grandmaster is almost always locked to an external time reference - typically GPS. GPS provides a highly accurate time signal derived from atomic clocks carried by the satellite constellation, and purpose-built PTP grandmaster appliances accept a GPS antenna input and use it to discipline their internal oscillator.
+
+The GPS receiver outputs a 1PPS (one pulse per second) signal, which the grandmaster uses as an absolute time reference. The grandmaster then distributes this time to the rest of the network via PTP. A GPS-locked grandmaster will typically achieve clock accuracy well within 100 nanoseconds relative to UTC, which is far tighter than anything required by AES67 or ST 2110.
+
+The practical value of GPS locking goes beyond raw accuracy. A GPS-locked grandmaster has a clock class value that signals to all other devices that it is traceable to a primary reference. In the BMCA, this gives it a decisive advantage over any device relying on an internal oscillator alone. It also means that if two facilities are both GPS-locked, their PTP domains share the same absolute time reference - which is essential for workflows where media is exchanged between sites and timestamps need to remain coherent.
+
+**Holdover** is an important characteristic of grandmaster hardware. If the GPS signal is lost - antenna failure, signal obstruction, interference - the grandmaster must maintain accurate time from its internal oscillator until the GPS signal is restored. The quality of the internal oscillator determines how long holdover can be sustained before clock drift becomes significant. Better hardware uses a temperature-compensated or oven-controlled oscillator (TCXO or OCXO) for longer holdover performance. During holdover, the grandmaster's clock class changes to indicate that it is no longer GPS-locked, which monitoring systems should flag.
+
+For temporary productions - OB trucks, venue installations, stadium events - a dedicated GPS-locked grandmaster is not always practical. In these cases, one of the devices on the network assumes the grandmaster role through the BMCA, locking the domain to its internal oscillator rather than GPS. This is usually sufficient for audio-only systems, where the absolute time reference matters less than consistency across devices on the same network. Where the production also involves video and tight audio/video alignment is required, a GPS-locked reference becomes more important.
+
+Some grandmaster appliances also support **GNSS** more broadly - accepting signals from GPS, GLONASS, Galileo, or BeiDou - which improves satellite availability and redundancy, particularly at high latitudes or in locations with limited sky visibility.
+
 ## The Best Master Clock Algorithm
 
 When a PTP domain starts up, devices use the BMCA to elect a grandmaster. The algorithm compares devices in priority order:
