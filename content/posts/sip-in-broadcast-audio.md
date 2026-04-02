@@ -11,6 +11,9 @@ tags:
 - Codecs
 title: 'SIP in Broadcast Audio - Commentary and Coordination Circuits Over IP'
 description: "ISDN is gone and dedicated circuits are expensive. SIP gives broadcast facilities a standardised, interoperable way to bring commentary and coordination audio in and out over the internet."
+cover:
+  image: sip.png
+  alt: "SIP architecture - remote codec connecting to broadcast centre via public internet"
 ---
 
 For most of my career, getting a high-quality audio circuit to or from a remote location meant either booking an ISDN line or arranging a satellite or fibre contribution. ISDN was reliable, well-understood, and nearly universal in broadcast. It was also expensive, inflexible, and is now being switched off across much of the world.
