@@ -10,6 +10,9 @@ tags:
   - Audio Engineering
 title: "Git Basics for Audio Engineers"
 description: "As broadcast audio moves toward software-defined workflows, the tools we build and configure deserve the same rigour we apply to signal chains. Git is how you stop losing work, track changes, and collaborate on the scripts and configs that keep productions running."
+cover:
+  image: git_logo.png
+  alt: "Git version control"
 ---
 
 Broadcast audio engineering has always involved a degree of systems thinking. Routing matrices, gain structures, signal flow - these are disciplines built around understanding how components interact and what happens when something changes. Software-defined workflows extend that thinking into a new domain, and with it comes a new category of things that can go wrong: a script that worked last week stops working, a configuration change breaks something, a colleague overwrites your work.
