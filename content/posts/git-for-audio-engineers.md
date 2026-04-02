@@ -2,17 +2,14 @@
 date: 2026-04-02T01:00:00Z
 draft: false
 categories:
-- Broadcast Technology
+  - Broadcast Technology
 tags:
-- Tools
-- Automation
-- Software
-- Audio Engineering
+  - Tools
+  - Automation
+  - Software
+  - Audio Engineering
 title: "Git Basics for Audio Engineers"
 description: "As broadcast audio moves toward software-defined workflows, the tools we build and configure deserve the same rigour we apply to signal chains. Git is how you stop losing work, track changes, and collaborate on the scripts and configs that keep productions running."
-cover:
-  image: git_logo.png
-  alt: "Git version control"
 ---
 
 Broadcast audio engineering has always involved a degree of systems thinking. Routing matrices, gain structures, signal flow - these are disciplines built around understanding how components interact and what happens when something changes. Software-defined workflows extend that thinking into a new domain, and with it comes a new category of things that can go wrong: a script that worked last week stops working, a configuration change breaks something, a colleague overwrites your work.
@@ -21,7 +18,7 @@ Git is the tool the software world uses to manage this. It is not complicated at
 
 ## Why Git Matters for Audio Engineers
 
-The shift toward software-defined broadcast infrastructure means audio engineers are increasingly responsible for things that look like software. Routing automation scripts. Python tools that query NMOS registries or calculate stream bandwidth. Configuration files for Liquidsoap playout, AES67 receivers, or SRT contribution encoders. Macros and show files for consoles that support scripting.
+The shift toward software-defined broadcast infrastructure means audio engineers are increasingly responsible for things that look like software. Routing automation scripts. Python tools that query NMOS registries or calculate stream bandwidth. SDP files for AES67 receivers/senders or SRT contribution encoders. Macros and show files for consoles that support scripting.
 
 All of these share a characteristic with code: they change over time, multiple people may work on them, and a bad change can break something in production. Without version control, the typical response is to keep copies - `routing_v2_FINAL.py`, `routing_v2_FINAL_actually_final.py` - which solves nothing and creates its own problems.
 
@@ -53,7 +50,7 @@ Run this once in a directory to start tracking it with Git. Creates a hidden `.g
 git status
 ```
 
-Shows which files have been modified, which are new and untracked, and which are staged and ready to commit. Run this frequently - it is your ground truth for what Git knows about.
+Shows which files have been modified, which are new and untracked, and which are staged and ready to commit. Run this frequently - it is your source of truth for what Git knows about.
 
 **Stage changes for commit**
 
@@ -161,7 +158,6 @@ For broadcast audio workflows, good candidates include:
 - Python or Bash scripts for automation and monitoring
 - NMOS configuration and registration tools
 - SDP file templates
-- Liquidsoap or other playout automation configuration
 - Console macro sets and show file templates (where the format is text-based)
 - Documentation for systems and signal flow
 
