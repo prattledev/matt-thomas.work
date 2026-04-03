@@ -12,6 +12,9 @@ tags:
   - IP
 title: "Comrex Fleet Dashboard - Monitoring a Fleet of Broadcast Audio Codecs"
 description: "Managing a fleet of Comrex contribution codecs across multiple sites means constantly checking individual units for connection status, firmware versions, and registration state. I built a dashboard to fix that."
+cover:
+  image: comrex_logo.jpg
+  alt: "Comrex"
 ---
 
 Anyone who manages a fleet of Comrex contribution codecs will know the problem. You have ACCESS MultiRack units in a broadcast centre, BRIC-Link devices at remote sites, ACCESS Portable NX units in the field - and keeping track of which ones are online, which are connected, and which have silently gone offline is a constant background task. Checking them individually through Switchboard is fine for one or two units. At scale it becomes friction.
