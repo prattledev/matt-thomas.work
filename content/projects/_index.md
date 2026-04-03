@@ -11,4 +11,12 @@ A clean, browser-based bandwidth calculator for Ravenna/AES67 audio streams. Bui
 
 ---
 
+## Comrex Fleet Dashboard
+
+A lightweight Node.js dashboard for monitoring a fleet of Comrex broadcast audio codecs. Polls the Comrex Switchboard API and presents registration status, connection state, firmware version, and IP address for every unit in a single auto-refreshing view. Useful for pre-show checks and live operational monitoring across multi-site deployments.
+
+[Source on GitHub](https://github.com/prattledev/comrex-dashboard)
+
+---
+
 *More tools in progress.*
