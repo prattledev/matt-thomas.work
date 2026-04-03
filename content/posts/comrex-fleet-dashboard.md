@@ -51,6 +51,16 @@ On larger events and multi-site operations, codec status is something you want v
 
 It is also useful as a pre-show check. A quick look at the dashboard before a broadcast starts tells you immediately if any unit has gone offline or is not showing as connected when it should be.
 
+## A Note on Security
+
+The dashboard is designed for use on a trusted internal network. If you are considering exposing it on the public internet, there are a few things worth keeping in mind.
+
+The application has no built-in authentication layer. Your Switchboard API token is held in server memory and never sent to the browser, but anyone who can reach the server can view your fleet data. If you expose it publicly, put it behind a reverse proxy that enforces authentication - HTTP basic auth via nginx is the simplest option, but any authentication mechanism your proxy supports will work.
+
+HTTPS is also essential for public-facing deployment. Without it, credentials passed to a basic auth prompt are sent in plaintext. Most reverse proxy setups handle TLS termination, so this is usually handled in the same step.
+
+Finally, consider whether public exposure is necessary at all. A VPN or SSH tunnel gives you access from anywhere without exposing the service to the open internet. For most broadcast use cases, that is the better trade-off.
+
 ## Getting Started
 
 ```bash
