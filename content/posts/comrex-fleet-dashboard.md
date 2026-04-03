@@ -35,6 +35,8 @@ Units are grouped automatically by device type - ACCESS MultiRack, BRIC-Link, AC
 
 There is a search field for filtering by device name, which is useful when you have a large fleet and need to find a specific unit quickly. The page refreshes automatically every 30 seconds, with a visible countdown timer so you know exactly how stale the data is.
 
+![Comrex Fleet Dashboard screenshot](/assets/comrex_dashboard.png)
+
 ## How It Works
 
 The architecture is deliberately simple. A small Express server acts as a proxy between the browser and the Comrex Switchboard API. The browser cannot call the Switchboard API directly due to CORS restrictions, so the server handles authentication and forwards the response.
