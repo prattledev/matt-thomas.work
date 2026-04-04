@@ -13,8 +13,8 @@ tags:
 title: "Comrex Fleet Dashboard - Monitoring a Fleet of Broadcast Audio Codecs"
 description: "Managing a fleet of Comrex contribution codecs across multiple sites means constantly checking individual units for connection status, firmware versions, and registration state. I built a dashboard to fix that."
 cover:
-  image: comrex_logo.jpg
-  alt: "Comrex"
+  image: comrex_dashboard.png
+  alt: "Comrex Fleet Dashboard"
 ---
 
 Anyone who manages a fleet of Comrex contribution codecs will know the problem. You have ACCESS MultiRack units in a broadcast centre, BRIC-Link devices at remote sites, ACCESS Portable NX units in the field - and keeping track of which ones are online, which are connected, and which have silently gone offline is a constant background task. Checking them individually through Switchboard is fine for one or two units. At scale it becomes friction.
@@ -38,8 +38,6 @@ Column headers are sortable - click any column to sort the fleet by that field, 
 There is a search field for filtering by device name, which is useful when you have a large fleet and need to find a specific unit quickly. The page refreshes automatically every 30 seconds, with a visible countdown timer so you know exactly how stale the data is.
 
 The table can be exported to CSV with a single button, giving you a snapshot of the current fleet state that you can drop into a spreadsheet or share with colleagues.
-
-![Comrex Fleet Dashboard screenshot](/assets/comrex_dashboard.png)
 
 ## How It Works
 
