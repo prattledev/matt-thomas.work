@@ -27,13 +27,17 @@ The dashboard gives you a single page showing every Comrex unit registered to yo
 
 - Registration status - whether the unit is online, offline, or in a secure state
 - Connection status - connected to a remote end, or idle
-- IP address and NAT type
+- IP address and NAT type - clicking the NAT type opens a modal with an explanation of what it means and its implications for connectivity
 - Firmware version
 - Last registration timestamp
 
 Units are grouped automatically by device type - ACCESS MultiRack, BRIC-Link, ACCESS Portable NX - with collapsible sections and a device count per group. A summary bar at the top shows totals: how many units are online, offline, and currently connected.
 
+Column headers are sortable - click any column to sort the fleet by that field, with a second click to reverse the order. This is useful for quickly spotting outliers, such as units running old firmware or those that have not registered recently.
+
 There is a search field for filtering by device name, which is useful when you have a large fleet and need to find a specific unit quickly. The page refreshes automatically every 30 seconds, with a visible countdown timer so you know exactly how stale the data is.
+
+The table can be exported to CSV with a single button, giving you a snapshot of the current fleet state that you can drop into a spreadsheet or share with colleagues.
 
 ![Comrex Fleet Dashboard screenshot](/assets/comrex_dashboard.png)
 
