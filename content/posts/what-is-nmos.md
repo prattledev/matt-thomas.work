@@ -48,6 +48,22 @@ One aspect of IS-05 I find particularly useful is the timing control. You can ac
 
 IS-05 also explicitly fills a gap that ST 2110 left open. SMPTE defined how to transport media over IP, but deliberately said nothing about how connections should be established or managed. IS-05 is the answer to that question.
 
+## The Full Family of Specifications
+
+IS-04 and IS-05 are the foundation, but NMOS has grown into a broader family covering the full lifecycle of managing networked media infrastructure.
+
+| Specification | Name | Description |
+|---|---|---|
+| IS-04 | Discovery and Registration | Devices register their senders and receivers with a central registry so control applications can discover what is available on the network. |
+| IS-05 | Device Connection Management | Standardised API for making, changing, and removing connections between senders and receivers, with support for PTP-timed activation. |
+| IS-06 | Network Control | Authorises and manages flow admission on the underlying network, allowing the control plane to enforce bandwidth and routing policy. |
+| IS-07 | Event and Tally | Distributes state change events and tally information from devices to interested subscribers over WebSocket or MQTT. |
+| IS-08 | Audio Channel Mapping | Controls the assignment of audio channels within a multi-channel flow to specific output pins on a receiver. |
+| IS-09 | System Parameters | Provides a shared configuration resource for system-wide parameters such as PTP domain and DNS-SD settings. |
+| IS-10 | Authorization | OAuth 2.0 based access control for NMOS APIs, restricting which clients can perform discovery, connection, and other operations. |
+| IS-11 | Stream Compatibility Management | Allows a control system to query and negotiate the format capabilities of senders and receivers before making a connection. |
+| IS-12 | Control Protocol | A generalised device control protocol based on the NCA/MS-05 framework for configuring device parameters beyond connection management. |
+
 ## Why this matters for AoIP
 
 For anyone working with AoIP systems, NMOS represents the control plane that the transport protocols don't provide. Ravenna and AES67 define how audio moves across the network. NMOS defines how you manage the infrastructure around that.
