@@ -12,6 +12,9 @@ tags:
   - Audio Engineering
 title: "The Role of a Border Router in Spine-Leaf Media Networks"
 description: "In a spine-leaf IP media network, the border router is where the internal fabric meets the outside world. Understanding what it does and why it matters is essential for anyone designing or operating IP broadcast infrastructure."
+cover:
+  image: borderrouter2110.png
+  alt: "Border router in a spine-leaf media network"
 ---
 
 Spine-leaf has become the dominant topology for IP media networks in broadcast facilities, outside broadcast trucks, and stadium infrastructure. It is predictable, scalable, and well-suited to the low-latency, high-bandwidth demands of uncompressed media. But a spine-leaf fabric is, by design, a closed system. The border router is what connects it to everything else.
