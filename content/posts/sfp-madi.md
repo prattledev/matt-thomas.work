@@ -2,13 +2,13 @@
 date: 2026-03-30T01:00:00Z
 draft: false
 categories:
-- Broadcast Technology
+  - Broadcast Technology
 tags:
-- MADI
-- Audio Engineering
-- SFP
-- Fibre
-title: 'SFPs for MADI - What You Need to Know'
+  - MADI
+  - Audio Engineering
+  - SFP
+  - Fibre
+title: "SFPs for MADI - What You Need to Know"
 description: "Optical MADI over SFP is common in broadcast facilities and OB trucks, but not all SFPs are equal. Here's what to look for to ensure compatibility."
 cover:
   image: madi_sfp.jpg
@@ -29,7 +29,7 @@ The physical connection is typically LC duplex - one fibre for transmit, one for
 
 The first decision when specifying MADI SFPs is fibre type, which determines wavelength and distance.
 
-**Multi-mode (MM)** SFPs operate at 850nm and are designed for shorter distances - typically up to 300-550m depending on the fibre grade. Multi-mode fibre is usually identified by an orange or aqua jacket and uses a larger core (50 or 62.5 micron). In an OB truck or a single building, multi-mode is often sufficient and the SFPs are cheaper.
+**Multi-mode (MM)** SFPs operate at 850nm or 1310nm and are designed for shorter distances - typically up to 300-550m depending on the fibre grade. Multi-mode fibre is usually identified by an orange or aqua jacket and uses a larger core (50 or 62.5 micron). In an OB truck or a single building, multi-mode is often sufficient and the SFPs are cheaper.
 
 **Single-mode (SM)** SFPs operate at 1310nm and can cover distances of several kilometres. Single-mode fibre has a much smaller core (9 micron) and is typically identified by a yellow jacket. For permanent installations between buildings, venues connected by pre-installed fibre runs, or any distance beyond a few hundred metres, single-mode is the right choice.
 
@@ -70,7 +70,7 @@ The key is finding an SFP whose optical components are designed to operate in th
 - Supported bit rates or standards - look for OC-3, STM-1, or explicit 125 Mbps support
 - Transmit output power (typically -15 to -8 dBm for multi-mode; -15 to -8 dBm for single-mode short-range)
 - Receiver sensitivity (typically better than -23 dBm)
-- Operating wavelength matching your fibre type (850nm for MM, 1310nm for SM)
+- Operating wavelength matching your fibre type (850nm or 1310nm for MM, 1310nm for SM)
 
 Even with the right specs on paper, it's worth testing a generic SFP on the bench before relying on it in a production environment. Some equipment is more tolerant of generic modules than others, and optical power levels that look fine on a data sheet don't always translate to reliable operation through real-world connector and cable losses.
 
