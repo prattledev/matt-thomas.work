@@ -50,6 +50,8 @@ With IS-08, a control system can remap the received flow so that stage box chann
 
 The same flow, routed simultaneously to another rights holder broadcast truck, can have a completely different channel map configured on that receiver - the sound engineer's preferred layout, independent of what the host broadcast console sees.
 
+So, in old school broadast terms, each receiver has its own audio shuffler at its disposal. A powerful feature.
+
 ## Inputs Without a Connection
 
 IS-08 defines the concept of **routable inputs** and **unroutable inputs**. A routable input is one that a control system is permitted to assign. An unroutable input might be a hardwired channel that the device manufacturer has fixed - a reference tone or a device-specific signal that should not be overridden by external control.
