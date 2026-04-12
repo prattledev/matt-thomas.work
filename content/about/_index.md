@@ -12,9 +12,9 @@ I work at the intersection of broadcast and IT, believing strongly in the shared
 
 ## Key Skills & Expertise
 
-- **Broadcast sound supervision**, guarantee, and assistant roles
+- **Broadcast sound supervision** and guarantee
 - **Trusted engineer** across major sporting events for leading broadcasters and facility providers
 - **Calm, focused performance** under pressure in live production environments
 - **Proven technical leadership** at large-scale broadcast events
 - **Passion for innovation** and emerging audio/communications technologies
-- **Strong relationships** with equipment manufacturers, suppliers, and technical service providers
+- **Strong relationships** with major broadcasters, equipment manufacturers, suppliers, and technical service providers
