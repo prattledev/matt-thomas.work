@@ -12,6 +12,9 @@ tags:
   - Networking
 title: "The Emerging DevOps Role in Broadcast Engineering"
 description: "Broadcast infrastructure is becoming software. The practices that the software industry developed for managing that complexity - DevOps - are increasingly relevant to broadcast engineers. Not as a job title to chase, but as a set of disciplines that make complex, software-defined broadcast systems more reliable and maintainable."
+cover:
+  image: devops.png
+  alt: "DevOps"
 ---
 
 Broadcast engineering has always had an operations dimension. Keeping a transmission chain on air, maintaining a routing system, managing the configuration of hundreds of devices across a live facility - these are operational problems that require discipline, process, and good documentation. What has changed is the nature of the infrastructure being operated.
