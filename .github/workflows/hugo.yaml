@@ -50,7 +50,7 @@ jobs:
             --gc \
             --minify \
             --buildFuture \
-            --baseURL "https://www.matt-thomas.work/" \
+            --baseURL "https://matt-thomas.work/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
