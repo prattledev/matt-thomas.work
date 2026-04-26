@@ -7,6 +7,7 @@ markup:
 languageCode: en-gb
 title: Matt Thomas
 theme: PaperMod
+enableRobotsTXT: true
 
 caches:
   images:
