@@ -11,9 +11,10 @@ tags:
   - Test Tones
 title: "GLITS & BLITS Generator"
 description: "A browser-based tool for generating broadcast-standard GLITS and BLITS test tone sequences as 24-bit WAV files - without needing a DAW or dedicated hardware."
+cover:
+  image: glitsandblits.png
+  alt: "GLITS & BLITS Generator"
 ---
-
-<p style="text-align:center"><img src="/assets/glitsandblits.png" alt="GLITS &amp; BLITS Generator"></p>
 
 GLITS and BLITS are two broadcast-standard test tone sequences that most audio engineers have encountered but few have had a convenient way to generate from scratch.
 
