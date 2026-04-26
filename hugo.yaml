@@ -1,4 +1,9 @@
 baseURL: https://www.matt-thomas.work
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 languageCode: en-gb
 title: Matt Thomas
 theme: PaperMod
